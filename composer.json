@@ -1,0 +1,22 @@
+{
+  "name": "shirtcharity/shirtish",
+  "description": "Shirtish (shirt.charity Shopware language pack)",
+  "type": "shopware-platform-plugin",
+  "license": "EUPL-1.2",
+  "autoload": {
+    "psr-4": {
+      "ShirtCharity\\Shirtish\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ShirtCharity\\Shirtish\\Shirtish",
+    "label": {
+      "de-DE": "Shirtish (shirt.charity Sprachpaket)",
+      "en-GB": "Shirtish (shirt.charity Language Pack)"
+    }
+  },
+  "scripts": {
+    "ecs": "../../../dev-ops/analyze/vendor/bin/ecs --config ../../../platform/easy-coding-standard.yml check ./src/",
+    "eslint": "../../../vendor/shopware/platform/src/Administration/Resources/app/administration/node_modules/.bin/eslint --config ../../../vendor/shopware/platform/src/Administration/Resources/app/administration/.eslintrc.js --ext .js,.vue ./src/"
+  }
+}
