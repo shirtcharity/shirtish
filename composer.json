@@ -3,6 +3,12 @@
   "description": "Shirtish (shirt.charity Shopware language pack)",
   "type": "shopware-platform-plugin",
   "license": "EUPL-1.2",
+  "authors": [
+    {
+      "name": "shirt.charity",
+      "homepage": "https://shirt.charity"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "ShirtCharity\\Shirtish\\": "src/"
