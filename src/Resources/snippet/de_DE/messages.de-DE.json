@@ -1,0 +1,16 @@
+{
+  "document": {
+    "invoiceNumber": "Rechnung %invoiceNumber%",
+    "invoiceHeadline": "Rechnung %invoiceNumber%",
+    "paymentShippingInfo": {
+      "additionalInfo": "Die Ware bleibt bis zur vollständigen Bezahlung unser Eigentum."
+    }
+  },
+  "filter": {
+    "sortByNameAscending": "Name (A-Z)",
+    "sortByNameDescending": "Name (Z-A)",
+    "sortByPriceAscending": "Preis (aufsteigend)",
+    "sortByPriceDescending": "Preis (absteigend)",
+    "sortByScore": "Beste Ergebnisse"
+  }
+}

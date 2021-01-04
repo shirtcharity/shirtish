@@ -16,6 +16,7 @@
   },
   "extra": {
     "shopware-plugin-class": "ShirtCharity\\Shirtish\\Shirtish",
+    "shopware-platform-base-commit": "dc86cdbbcfeb60fe5ba2d7f3cbf13d232367361e",
     "label": {
       "de-DE": "Shirtish (shirt.charity Sprachpaket)",
       "en-GB": "Shirtish (shirt.charity Language Pack)"
