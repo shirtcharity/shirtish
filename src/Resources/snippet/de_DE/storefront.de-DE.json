@@ -13,15 +13,15 @@
     "showCategory": "%category%",
     "requiredFields": "Bitte fülle alle Felder aus, die mit einem Stern (*) markiert sind.",
     "privacyNotice": "Ich akzeptiere die <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Datenschutzbestimmungen\">Datenschutzbestimmungen</a>.",
-    "404ErrorDescription": "Es tut uns leid, diese Seite haben wir nicht gefunden. Aber wir helfen dir gerne persönlich! Schreib uns jetzt auf <a href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
+    "404ErrorDescription": "Es tut uns leid, diese Seite haben wir nicht gefunden. Aber wir helfen dir gerne persönlich! Schreib uns jetzt auf <a class=\"newtab\" href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a class=\"newtab\" href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
     "maintenanceModeDescription": "Wir aktualisieren derzeit die Inhalte dieser Seite. Bitte schau doch in Kürze wieder vorbei."
   },
   "header": {
     "searchPlaceholder": "Was brauchst du, um die Welt zu verändern?",
     "searchAllResults": "Alle anschauen",
     "searchResults": "{1} eins gefunden|]1,Inf[ %count% gefunden",
-    "supportInfo": "<strong>Fragen zu deiner Bestellung?</strong><br />Schreib uns jetzt auf <a href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
-    "searchNoResult": "Leider haben wir dazu gerade nichts auf Lager. Dürfen wir dir persönlich weiter helfen? Schreib uns jetzt auf <a href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>"
+    "supportInfo": "<strong>Fragen zu deiner Bestellung?</strong><br />Schreib uns jetzt auf <a class=\"newtab\" href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a class=\"newtab\" href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
+    "searchNoResult": "Leider haben wir dazu gerade nichts auf Lager. Dürfen wir dir persönlich weiter helfen? Schreib uns jetzt auf <a class=\"newtab\" href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a class=\"newtab\" href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>"
   },
   "error": {
     "VIOLATION::CUSTOMER_EMAIL_NOT_UNIQUE": "Deine E-Mail-Adresse ist bereits registriert. Bitte melde dich mit deinem Passwort an oder setze dein Passwort zurück.",
@@ -172,7 +172,7 @@
   "listing": {
     "boxAddProduct": "In den Wäschekorb",
     "boxProductDetails": "Anfassen",
-    "emptyResultMessage": "Leider haben wir dazu gerade nichts auf Lager. Dürfen wir dir persönlich weiter helfen? Schreib uns jetzt auf <a href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
+    "emptyResultMessage": "Leider haben wir dazu gerade nichts auf Lager. Dürfen wir dir persönlich weiter helfen? Schreib uns jetzt auf <a class=\"newtab\" href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a class=\"newtab\" href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
     "filterFreeShippingDisplayName": "versandkostenfrei",
     "filterRatingDisplayName": "Bewertung mindestens",
     "defaultProductSortingLabel": "Name (A-Z)"
@@ -229,7 +229,7 @@
   "footer": {
     "serviceHotlineHeadline": "Wir helfen dir gern persönlich",
     "newsletterHeadline": "Charityletter",
-    "serviceHotline": "Wir freuen uns, wenn wir dir persönlich helfen dürfen. Schreib uns jetzt auf <a href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
+    "serviceHotline": "Wir freuen uns, wenn wir dir persönlich helfen dürfen. Schreib uns jetzt auf <a class=\"newtab\" href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a class=\"newtab\" href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>",
     "serviceContactLink": "<a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Kontaktformular\">Kontaktformular</a>",
     "newsletterInput": "E-Mail-Adresse",
     "newsletter": "Abonniere jetzt unseren Charityletter und erhalte Zugang zu exklusiven Rabatten und Aktionen!",
