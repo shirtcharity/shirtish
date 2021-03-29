@@ -166,7 +166,8 @@
     "promotion-not-eligible": "Wir haben deinen Gutschein-Code gespeichert, aber nicht auf deinen Wäschekorb angewendet, da die Voraussetzungen dafür nicht zutreffen. Sobald die Voraussetzungen zutreffen, wird dein Gutschein-Code automatisch hinzugefügt.",
     "auto-promotion-not-found": "Die Aktion \"%name%\" ist leider nicht mehr gültig. Sorry!",
     "shipping-address-blocked": "Lieferungen an die gewählte Lieferadresse sind leider nicht möglich.",
-    "customerCommentLabel": "Möchtest du uns etwas über deine Bestellung mitteilen?",
+    "customerCommentHeader": "Deine Nachricht an uns",
+    "customerCommentLabel": "Möchtest du uns noch etwas mitteilen?",
     "customerCommentPlaceholder": ""
   },
   "listing": {
@@ -238,9 +239,10 @@
     "copyrightInfo": ""
   },
   "cookie": {
-    "message": "PLEASE_REPLACE verwendet Cookies. Zum Beispiel, um deinen Wäschekorb zu speichern. <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Mehr Informationen\">Mehr Informationen ...</a>",
-    "deny": "Cookies ablehnen",
-    "configure": "Cookies konfigurieren"
+    "message": "Wir nutzen Cookies, um dir ein angenehmes Shoppen zu bieten. <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Mehr Informationen\">Mehr Informationen ...</a>",
+    "deny": "Ablehnen",
+    "configure": "Konfigurieren",
+    "acceptAll": "Alle akzeptieren"
   },
   "ellipsis": {
     "expandLabel": "mehr sehen",
