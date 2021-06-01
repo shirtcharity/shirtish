@@ -239,7 +239,7 @@
     "copyrightInfo": ""
   },
   "cookie": {
-    "message": "Wir nutzen Cookies, um dir ein angenehmes Shoppen zu bieten. <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Mehr Informationen\">Mehr Informationen ...</a>",
+    "message": "Wir nutzen Cookies, um unsere Dienste anzubieten und zu verbessern. <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Mehr Informationen\">Mehr Informationen ...</a>",
     "deny": "Ablehnen",
     "configure": "Konfigurieren",
     "acceptAll": "Alle akzeptieren"
