@@ -16,14 +16,14 @@
   },
   "extra": {
     "shopware-plugin-class": "ShirtCharity\\Shirtish\\Shirtish",
-    "shopware-platform-base-commit": "dc86cdbbcfeb60fe5ba2d7f3cbf13d232367361e",
+    "shopware-platform-base-commit": "38c77177798b791084aae5307f9b645285264fb4",
     "label": {
-      "de-DE": "Shirtish (shirt.charity Sprachpaket)",
-      "en-GB": "Shirtish (shirt.charity Language Pack)"
+      "de-DE": "shirt.charity Shirtish",
+      "en-GB": "shirt.charity Shirtish"
+    },
+    "description": {
+      "de-DE": "shirt.charity Sprachpaket",
+      "en-GB": "shirt.charity Language Pack"
     }
-  },
-  "scripts": {
-    "ecs": "../../../dev-ops/analyze/vendor/bin/ecs --config ../../../platform/easy-coding-standard.yml check ./src/",
-    "eslint": "../../../vendor/shopware/platform/src/Administration/Resources/app/administration/node_modules/.bin/eslint --config ../../../vendor/shopware/platform/src/Administration/Resources/app/administration/.eslintrc.js --ext .js,.vue ./src/"
   }
 }

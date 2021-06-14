@@ -28,13 +28,20 @@
     "message-404": "Wir konnten diese Seite leider nicht finden.",
     "addToCartError": "Beim Hinzufügen zum Wäschekorb ist leider etwas schief gelaufen.",
     "productNotFound": "Wir konnten Produkt \"%number%\" leider nicht finden.",
+    "shipping-address-invalid": "Die gewählte Versandadresse ist nicht gültig oder unvollständig. Bitte prüfe deine Eingaben.",
+    "billing-address-invalid": "Die gewählte Rechnungsadresse ist nicht gültig oder unvollständig. Bitte prüfe deine Eingaben.",
     "product-not-found": "Wir konnten das Produkt leider nicht finden.",
     "message-403-ajax": "Deine Sitzung ist zwischenzeitlich abgelaufen. Bitte lade die Seite neu und versuche es erneut.",
     "message-403": "Deine Sitzung ist zwischenzeitlich abgelaufen. Bitte kehre zur letzten Seite zurück und versuche es erneut.",
     "product-out-of-stock": "%name% ist leider momentan nicht verfügbar.",
-    "auto-promotion-not-found": "Die Aktion \"%name%\" ist leider nicht mehr gültig."
+    "auto-promotion-not-found": "Die Aktion \"%name%\" ist leider nicht mehr gültig.",
+    "captcha": {
+      "basic-captcha-invalid": "Die CAPTCHA-Eingabe ist ungültig. Bitte überprüfe deine Eingaben."
+    }
   },
   "account": {
+    "externalPaymentCanceled": "Wir haben deine Bestellung erhalten, aber die Zahlung wurde abgebrochen. Bitte versuche es erneut oder ändere deine Zahlungsmethode.",
+    "externalPaymentFailure": "Wir haben deine Bestellung erhalten, aber wir konnten deine Zahlung nicht bearbeiten. Bitte versuche es erneut oder ändere deine Zahlungsmethode.",
     "confirmationIsAlreadyDone": "Vielen Dank, dein Account ist bereits bestätigt.",
     "doubleOptInMailConfirmationSuccessfully": "Vielen Dank für die Bestätigung deiner E-Mail-Adresse! Du kannst deine Bestellung nun abschließen.",
     "doubleOptInRegistrationSuccessfully": "Vielen Dank für deine Anmeldung! Dein Account wurde jetzt freigeschaltet.",
@@ -88,6 +95,10 @@
     "passwordHashExpired": "Der Link zum Zurücksetzen des Passworts ist nicht mehr gültig. Bitte fordere einen neuen Link an.",
     "recoveryMailSend": "Sofern diese E-Mail-Adresse bei uns registriert ist, haben wir gerade eine Bestätigungs-E-Mail mit einem Link versendet, mit dem du dein Passwort zurücksetzen kannst.",
     "profileRecoverPasswordInfo": "Wir werden dir eine E-Mail zur Überprüfung schicken. Bitte öffne den darin enthaltenen Link, um dein Passwort zu ändern.",
+    "profileDelete": "<a href=\"%target%\" data-toggle=\"modal\" data-target=\"%target%\">Bitte klicke hier</a> um alle deine persönlichen Daten zu löschen",
+    "profileDeleteAlert": "Nach dem Löschen der persönlichen Daten deines Kundenkontos sind Newsletter-Einträge und Bewertungen entfernt. Bitte beachte jedoch, dass weiterhin Aufzeichnungen über alle Bestellungen gespeichert bleiben, um die gesetzlichen Bestimmungen zu erfüllen.",
+    "profileDeleteConfirm": "Möchtest du dein Kundenkonto wirklich löschen?",
+    "profileDeleteSuccessAlert": "Dein Kundenkonto wurde gelöscht.",
     "addressText": "Passe hier deine Adressen an oder füge neue hinzu.",
     "addressDeleted": "Du hast die Adresse gelöscht.",
     "addressNotDeleted": "Die Adresse konnte nicht gelöscht werden.",
@@ -115,7 +126,8 @@
     "newsletterSettings": "Ja, ich möchte den kostenlosen Charityletter von %shopname% per E-Mail erhalten.",
     "passwordResetTitle": "Möchtest du dein Passwort ändern?",
     "passwordResetInfo": "Hier kannst du ein neues Passwort festlegen. Sobald du das neue Passwort speicherst, wird dein altes Passwort ungültig.",
-    "passwordOptInInfo": "Wir haben dir eine E-Mail geschickt. Bitte öffne den darin enthaltenen Link, um dein Passwort zu ändern."
+    "passwordOptInInfo": "Wir haben dir eine E-Mail geschickt. Bitte öffne den darin enthaltenen Link, um dein Passwort zu ändern.",
+    "orderGuestLoginDescription": "Um deine Bestellung einsehen zu können, gib bitte zuerst deine E-Mail-Adresse sowie die Postleitzahl aus deiner verwendeten Rechnungsadresse ein."
   },
   "address": {
     "streetPlaceholder": "",
@@ -162,13 +174,14 @@
     "payment-method-blocked": "Die Zahlungsart %name% ist leider für diese Produkte nicht möglich.",
     "promotion-discount-deleted": "Du hast den Rabatt \"%name%\" gelöscht",
     "promotion-discount-added": "Du hast den Rabatt \"%name%\" hinzugefügt",
-    "promotion-not-found": "Der Gutschein-Code \"%code%\" ist leider nicht gültig. Sorry!",
+    "promotion-not-found": "Der Gutschein-Code \"%code%\" ist leider nicht gültig.",
     "promotion-not-eligible": "Wir haben deinen Gutschein-Code gespeichert, aber nicht auf deinen Wäschekorb angewendet, da die Voraussetzungen dafür nicht zutreffen. Sobald die Voraussetzungen zutreffen, wird dein Gutschein-Code automatisch hinzugefügt.",
-    "auto-promotion-not-found": "Die Aktion \"%name%\" ist leider nicht mehr gültig. Sorry!",
+    "auto-promotion-not-found": "Die Aktion \"%name%\" ist leider nicht mehr gültig.",
     "shipping-address-blocked": "Lieferungen an die gewählte Lieferadresse sind leider nicht möglich.",
     "customerCommentHeader": "Deine Nachricht an uns",
     "customerCommentLabel": "Möchtest du uns noch etwas mitteilen?",
-    "customerCommentPlaceholder": ""
+    "customerCommentPlaceholder": "",
+    "cart-merged-hint": "Dein Wäschekorb enthält nun zusätzliche Produkte, die noch von deinem früheren Besuch gespeichert waren."
   },
   "listing": {
     "boxAddProduct": "In den Wäschekorb",
@@ -225,7 +238,17 @@
     "reviewListEmpty": "Noch keine Bewertung. Schreib jetzt eine Bewertung und teile deine Erfahrung!",
     "reviewLoginDescription": "Um eine Bewertung zu schreiben, musst du angemeldet sein. Bitte logge dich ein oder erstelle einen neuen Account.",
     "reviewRegisterLink": "Möchtest du dich neu registrieren?",
-    "reviewLoginSignupLink": "Klicke hier, um dich einzuloggen."
+    "reviewLoginSignupLink": "Klicke hier, um dich einzuloggen.",
+    "reviewNotPublicYetAlert": "Deine Bewertung wurde noch nicht freigeschaltet"
+  },
+  "wishlist": {
+    "cartTitle": "Dein Merkzettel",
+    "headline": "Dein Merkzettel",
+    "itemDeleteSuccess": "Du hast den Eintrag von deinem Merkzettel entfernt.",
+    "itemAddedSuccess": "Du hast eine gute Wahl zu deinem Merkzettel hinzugefügt.",
+    "wishlistMergeHint": "Dein Merkzettel kann Einträge enthalten, die bei deinem vorhergehenden Besuch hinzugefügt wurden.",
+    "wishlistEmptyHeader": "Dein Merkzettel ist noch leer",
+    "wishlistEmptyDescription": "Zeit das zu ändern! Such dir jetzt deine Lieblingsprodukte aus und tippe auf das Herz, um sie hier hinzuzufügen."
   },
   "footer": {
     "serviceHotlineHeadline": "Wir helfen dir gern persönlich",
@@ -238,6 +261,9 @@
     "excludeVat": "* Alle Preise exklusive Mehrwertsteuer. Dazu kommen <a data-toggle=\"modal\" href=\"%url%\" data-url=\"%url%\">Versandkosten</a> und die von dir ausgewählten Spendenbeträge.",
     "copyrightInfo": ""
   },
+  "captcha": {
+    "basicCaptchaLabel": "Bitte gib die abgebildeten Zeichen ein"
+  },
   "cookie": {
     "message": "Wir nutzen Cookies, um unsere Dienste anzubieten und zu verbessern. <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Mehr Informationen\">Mehr Informationen ...</a>",
     "deny": "Ablehnen",
@@ -247,5 +273,10 @@
   "ellipsis": {
     "expandLabel": "mehr sehen",
     "shrinkLabel": "weniger sehen"
+  },
+  "cms": {
+    "vimeo": {
+      "privacyNotice": "Mit dem Aufruf des Videos erklärst du dich einverstanden, dass deine Daten an %platform% übermittelt werden und dass du die <a data-toggle=\"modal\" data-url=\"%url%\" href=\"%url%\" title=\"Datenschutzbestimmungen\">Datenschutzbestimmungen</a> akzeptierst."
+    }
   }
 }
