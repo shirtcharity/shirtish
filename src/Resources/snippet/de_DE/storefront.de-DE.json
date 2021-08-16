@@ -24,7 +24,7 @@
     "searchNoResult": "Leider haben wir dazu gerade nichts auf Lager. Dürfen wir dir persönlich weiter helfen? Schreib uns jetzt auf <a class=\"newtab\" href=\"PLEASE_REPLACE\">WhatsApp</a> oder <a class=\"newtab\" href=\"PLEASE_REPLACE\">Telegram</a> oder per Mail an <a href=\"mailto:PLEASE_REPLACE\">PLEASE_REPLACE</a>"
   },
   "error": {
-    "VIOLATION::CUSTOMER_EMAIL_NOT_UNIQUE": "Deine E-Mail-Adresse ist bereits registriert. Bitte melde dich mit deinem Passwort an oder setze dein Passwort zurück.",
+    "VIOLATION::CUSTOMER_EMAIL_NOT_UNIQUE": "Deine E-Mail-Adresse ist bereits registriert. Bitte wähle oben \"Ich habe hier schon einen Account\" und melde dich mit deinem Passwort an oder setze dein Passwort zurück.",
     "message-404": "Wir konnten diese Seite leider nicht finden.",
     "addToCartError": "Beim Hinzufügen zum Wäschekorb ist leider etwas schief gelaufen.",
     "productNotFound": "Wir konnten Produkt \"%number%\" leider nicht finden.",
@@ -181,7 +181,7 @@
     "customerCommentHeader": "Deine Nachricht an uns",
     "customerCommentLabel": "Möchtest du uns noch etwas mitteilen?",
     "customerCommentPlaceholder": "",
-    "cart-merged-hint": "Dein Wäschekorb enthält nun zusätzliche Produkte, die noch von deinem früheren Besuch gespeichert waren."
+    "cart-merged-hint": "Willkommen zurück! Falls du bei deinem letzten Besuch noch Produkte im Wäschekorb hattest, wurden diese jetzt wieder in den Wäschekorb hinzugefügt."
   },
   "listing": {
     "boxAddProduct": "In den Wäschekorb",
